@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cau dieu kien</title>
+</head>
+<body>
+    <script>
+        let a=3,b=4
+        //
+        if(a>b){
+            console.log(a+" lon hon "+b)
+        }
+        else{
+            console.log(a+" khong lon hon "+b)
+        }
+        //
+        if(a>0){
+            console.log(a+" la so duong")
+        }
+        else{
+            console.log(a+" khong phai la so duong")
+        }
+        //Kiem tra a=b hay khong
+        if(a==b){
+            console.log(a+" bang "+b)
+        }
+        else{
+            console.log(a+" khac "+b)
+        }
+        // ==: so sanh bang
+        // !=:so sanh khong bang
+        //>=: lon hon hoac bang
+        //<=:be hon hoac bang
+        //&&: va
+        //||: hoac
+
+
+        //kiem tra a va b co dong thoi lon hon 0 khong
+        if(a>0&& b>0){
+            console.log("a va b cung lon hon 0")
+        }
+        else{
+            console.log("a va b khong dong thoi lon hon 0")
+        }
+        //Bai 1: kiem tra a co chia het cho b khong
+        if(a%b==0){
+            console.log("a chia het cho b")
+        }
+        else{"a khong chia het cho b"}
+        //Bai 2: kiem tra a la so chan hay le
+        if(a%2==0){
+            console.log(a+" la so chan")
+        }
+        else{
+            console.log(a+" la so le")
+        }
+       
+        //Kiem tra a la so duong, so am hay so 0
+        if(a>0){
+            console.log(a+" la so duong")
+        }
+        else if(a<0){
+            console.log(a+" la so am")
+        }
+        else{
+            console.log(a+" bang 0")
+        }
+
+        //kiem tra a co 1, 2, 3 hay 4 chu so tro len
+        if (a<10){
+            console.log(a+" co 1 chu so")
+        }
+        else if(a<100){
+            console.log(a+"co 2 chu so")
+        }
+        else if (a<1000){
+            console.log(a+" co 3 chu so")
+        }
+        else{
+            console.log(a+"co 4 chu so tro len")
+        }
+
+        //bai 3: gia su a la 1 thang trong nam, cho biet a co bao nhieu ngay
+        if (a==4||a==6||a==9||a==11) {
+            console.log("thang " +a+" co 30 ngay")
+        }
+        else if (a==2) {
+            console.log("thang "+a+" co 28/29 ngay")
+        }
+        else {
+            console.log("thang "+a+" co 31 ngay")
+        }
+    </script>
+</body>
+</html>
