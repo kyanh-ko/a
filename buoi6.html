@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Ham khong co tham so
+        function in_Xinchao() {
+            console.log("Xin chao")
+            console.log("Di hoc")
+        }
+        function in_BBC2(){
+            console.log("2.1=2")
+            console.log("2.2=4")
+            console.log("2.3=6")
+            console.log("2.4=8")
+        }
+        //Ham co 1 tham so
+        function thongTinHinhVuong(canh){
+            console.log("hinh vuong co canh= "+canh)
+        }
+
+        //Ham co 2 tham so
+        function thongTinHinhChuNhat(dai,rong){
+            console.log("HCN co chieu dai= "+dai+" va co chieu rong= "+rong)
+        }
+
+        //Ham co 2 tham so
+        function mieuTaMe(hinhAnh,dang){
+            console.log(`Toc me bac mau ${hinhAnh} phu kin doi vai ${dang}`)
+        }
+        in_BBC2()
+        in_Xinchao()
+        in_Xinchao()
+        thongTinHinhVuong(5)
+        thongTinHinhChuNhat(7,9)
+        mieuTaMe("suong","cong")
+        mieuTaMe("may","gay")
+
+        //Ham tinh toan tu dinh nghia
+        function tong(a,b){
+            return a+b
+        }
+        function tich(a,b,c){
+            return a*b*c
+        }
+        function thuong(a,b){
+            return a/b
+        }
+
+        console.log(tong(5,9))
+        console.log(tich(2,6,7))
+        console.log(thuong(6,2))
+        
+        console.log(Math.max(2,3,4))
+        console.log(Math.round(4.8))
+        console.log(Math.pow(2,3))
+
+        //Viet ham so tinh chu vi va dien tich hcn
+        function chuVi(dai,rong){
+            return (dai+rong)*2
+        }
+        console.log(`Chu vi HCN: ${chuVi(5,6)}`)
+
+        function dienTich(dai,rong){
+            return dai*rong
+        }
+        console.log(`Dien tich HCN: ${dienTich(5,6)}`)
+
+        //Viet ham tinh dien tich hinh tron
+        const pi=3.14
+        function dienTichHinhTron(r){
+            return pi*r**2
+        }
+        console.log(`Dien tich hinh tron: ${dienTichHinhTron(5)}`)
+
+    </script>
+</body>
+</html>
