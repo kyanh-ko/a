@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: linear-gradient(#eb3349, #f45c43);
+            height: 100vh;
+            padding: 150px;
+            font-family: 'Nunito', sans-serif;
+        }
+        .box{
+            width: 400px;
+            height: 400px;
+            background: white;
+            margin: 0 auto;
+            margin-top: 70px;
+            border-radius: 5px;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .box input[type='email'], .box input[type='password']{
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+        }
+        .box a{
+            margin-top: 15px;
+            display: block;
+            text-decoration: none;
+            color:black;
+            opacity: 0.5;
+        }
+        input[type='submit']{
+            width: 40%;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            font-weight: 700;
+            background: rgb(255,64,47);  
+        }
+        .icon a{
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            margin: 15px 5px;
+            background: #67cadb;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;
+            transition: 0.5s;
+            box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        }
+        .icon a:hover{
+            background: white;
+            box-shadow: none;
+            transform: translateY(-7px);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <h1>Sign in</h1>
+        <form >
+            <input type="email" placeholder="Email"><br>
+            <input type="password" placeholder="Password"><br>
+            <a href="#">Forgot your password?</a><br>
+            <input type="submit" value="Sign in">
+        </form>
+        <div class="icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+        </div>
+    </div>
+   
+</body>
+</html>
