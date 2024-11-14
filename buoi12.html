@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contain{
+            border: 2px solid greenyellow;
+            height: 400px;
+            display: flex;
+            justify-content: space-around; /*giữa cách đều lề*/
+            justify-content: space-between; /*giữa sát lề*/
+            justify-content: flex-end; /*bên phải*/
+            justify-content: flex-start; /*bên trái*/
+            justify-content: center; /*giữa*/
+            align-items: flex-start;
+            align-items: flex-end;
+            align-items: center;
+
+        }
+        .contain .box{
+            border: 2px solid lightcoral;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="box">
+            box
+        </div>
+        <div class="box">
+            box
+        </div>
+        <div class="box">
+            box
+        </div>
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>
